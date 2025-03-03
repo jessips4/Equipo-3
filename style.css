@@ -1,0 +1,144 @@
+/*Fuentes de Google Fonts: Belanosima Handjet*/
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Handjet:wght@100..900&display=swap');
+
+/*Fuente BELANOSISIMA (para la palabra FEMME FORCE)*/
+.belanosima-regular {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#BF6FA3
+}
+
+/*Fuente Handjet para Headers y titulitos llamativos*/
+/* <uniquifier>: Use a unique and descriptive class name*/
+
+.handjet {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+  letter-spacing: 1px;
+}
+
+#banner-inicio{
+  background-color: #AB8FEB; /* Color rosa */
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;*//*
+  margin-top: 60px;*/ /* Para que no se solape con la navbar */
+  /*color: white;*/
+  /* height: 100vh;*/
+  /*display: flex;*/
+  /*align-items: center;*/  
+  padding-top:50 px;
+  padding-bottom:100px;
+}
+
+/* Ajustar el margen superior del texto */
+#banner-inicio .col-lg-6:first-child {
+  margin-top: 200px; /* Ajusta según lo necesario */
+}
+/* Imagen pegada a la derecha */
+#banner-inicio .col-lg-6 img {
+  width: 100%; /* Asegura que cubra toda la columna */
+  object-fit: cover; /* Mantiene la proporción */
+  display: block;
+}
+
+
+.Proyecto {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centrar la sección horizontalmente */
+  }
+  
+  body {
+    background-color: #F2EBF0;
+  }
+  
+  h1 {
+    font-family: 'Young Serif';
+  }
+  
+  h2 {
+    font-family: 'Libre Caslon Display';
+  }
+  
+  h4 {
+    font-family: 'Kurale';
+  }
+  
+  p {
+    font-family: 'Cormorant Infant';
+  }
+  
+  header {
+    font-family: 'Cormorant Infant';
+    background-color: #f3c2cb;
+  }
+  header nav{
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: #f3c2cb;
+  }
+  
+  .nav-item a{
+    color: #734854;
+  }
+  
+  
+  .nav-item a:hover{
+    color: #292528;
+  }
+  
+  #app{
+    color:#734854
+  }
+  
+  
+  .caja-about{
+    background-color: #BF6FA3;
+  }
+  
+  
+  .icon-link{
+    color: #402924;
+  }
+  
+  .card{
+    background-color: #D9A7B0;
+  }
+  
+  .contacto-caja{
+    background-color: #F2CBBD;
+  }
+  
+  .btn{
+    background-color: #D9A7B0;
+    color: #402924;
+  }
+  footer{ 
+    background-color: #d5ecf5;
+  }
+  
+  footer ul{ 
+    background-color: white;
+  }
+  
+  footer i:hover{
+    background-color: #378BA4;
+    color: white;
+  }
+  
