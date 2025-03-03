@@ -3,7 +3,10 @@
     margin: 0 auto;
     /* Centrar la sección horizontalmente */
   }
-  
+  html {
+    scroll-padding-top: 100px; /* Ajusta el valor según la altura de tu navbar */
+}
+
   body {
     background-color: #F2EBF0;
   }
@@ -15,7 +18,84 @@
   h2 {
     font-family: 'Libre Caslon Display';
   }
-  
+  .contenedor-about {
+    display: grid;  /* Usamos grid para tres columnas */
+    grid-template-columns: 1fr 2fr 1fr;  /* Tres columnas: una pequeña, una mediana (para el texto) y una para la imagen */
+    gap: 20px;  /* Espacio entre las columnas */
+    padding-left: 20%; /* Ajusta el margen izquierdo como desees */
+    height: 100vh;  /* Ajusta la altura del contenedor */
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: flex-start; /* Alinea todo al inicio (arriba) */
+}
+  .columna-1{
+    text-align: left; /*alineamos el contenido de la primera columna*/
+  }
+.subtitulo-about {
+    font-family: 'Syne', sans-serif;
+    font-weight: normal;
+    color: #427DEB;
+    font-size: 16px;
+    margin: 0;
+}
+
+.sobre-nosotras {
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    color: #AA42EB;
+    font-size: 30px;
+    
+    margin-bottom: 20px;  /* Espacio entre el título y el texto */
+}
+
+.columna-2{
+  text-align: left; 
+}
+
+.texto-about {
+    font-family: 'Syne', sans-serif;
+    font-weight: normal;
+    color: #427DEB;
+    font-size: 16px;
+    
+    margin: 0;
+}
+.texto-about.bold {
+  padding-left: 20px;  /* Añadir sangría a la izquierda */
+  padding-right: 20px; /* Añadir sangría a la derecha */
+  font-weight: bold;  /* Poner en negrita */
+}
+
+.btn-ver-mas {
+  display: inline-block;  /* Hace que el enlace se comporte como un bloque en línea */
+  background-color: #4247EB;  /* Color de fondo azul */
+  color: #FFFAF4;  /* Color de la fuente blanca */
+  font-family: 'Syne', sans-serif;  /* Tipografía Syne */
+  font-size: 16px;  /* Tamaño de fuente igual al de "Welcome Breakers" */
+  font-weight: normal;
+  text-decoration: none;  /* Elimina el subrayado */
+  padding: 10px 20px;  /* Espaciado interior para hacerlo más grande */
+  border-radius: 5px;  /* Bordes redondeados */
+  margin-top: 20px;  /* Espacio encima del botón */
+  text-align: center;  /* Centra el texto dentro del botón */
+}
+
+.btn-ver-mas:hover {
+  background-color: #3639B2;  /* Cambia el color al pasar el cursor sobre el botón */
+}
+
+.columna-3{
+  display:flex;
+  justify-content: center;
+}
+.imagen-deportes {
+    width: 100%;  /* Asegura que la imagen ocupe todo el espacio disponible */
+    max-width; 400px;
+    height: auto;  /* Mantiene las proporciones de la imagen */
+}
+
+
+
   h4 {
     font-family: 'Kurale';
   }
