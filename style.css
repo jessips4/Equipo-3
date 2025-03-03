@@ -1,3 +1,56 @@
+/*Fuentes de Google Fonts: Belanosima Handjet*/
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Handjet:wght@100..900&display=swap');
+
+/*Fuente BELANOSISIMA (para la palabra FEMME FORCE)*/
+.belanosima-regular {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#BF6FA3
+}
+
+/*Fuente Handjet para Headers y titulitos llamativos*/
+/* <uniquifier>: Use a unique and descriptive class name*/
+
+.handjet {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+  letter-spacing: 1px;
+}
+
+#banner-inicio{
+  background-color: #AB8FEB; /* Color rosa */
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;*//*
+  margin-top: 60px;*/ /* Para que no se solape con la navbar */
+  /*color: white;*/
+  /* height: 100vh;*/
+  /*display: flex;*/
+  /*align-items: center;*/  
+  padding-top:50 px;
+  padding-bottom:100px;
+}
+
+/* Ajustar el margen superior del texto */
+#banner-inicio .col-lg-6:first-child {
+  margin-top: 200px; /* Ajusta según lo necesario */
+}
+/* Imagen pegada a la derecha */
+#banner-inicio .col-lg-6 img {
+  width: 100%; /* Asegura que cubra toda la columna */
+  object-fit: cover; /* Mantiene la proporción */
+  display: block;
+}
+
+
 .Proyecto {
     max-width: 1200px;
     margin: 0 auto;
