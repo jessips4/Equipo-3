@@ -179,35 +179,55 @@
     </main>
     <!--Pie de página-->
     <footer class="py-3 my-4">
-        <!-- Apartado de Contacto-->
-        <div id="contacto" class="px-4 py-5 my-5 text-center">
-            <i class="bi bi-envelope-check-fill fs-1"></i>
-            <h2 class="display-5 fw-bold text-body-emphasis">¡Contacto!</h2>
-            <div class="col-lg-6 mx-auto">
-                <!--Informacion del contacto-->
-                <p class="lead mb-4">info del contacto</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <!-- Apartado de Contacto -->
+<div id="contacto" class="px-4 py-5 my-5 text-center">
+    <i class="bi bi-envelope-check-fill fs-1"></i>
+    <h2 class="display-5 fw-bold text-body-emphasis">¡Contáctanos!</h2>
+    <div class="col-lg-6 mx-auto">
+        <!-- Información del contacto -->
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <form action="tu-script-de-procesamiento.php" method="POST" class="w-50 bg-light p-4 rounded">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
+    </div>
+</div>
+
 
         <!--Redes sociales-->
         <ul class="nav justify-content-center border-bottom pb-3 mb-3 p-3">
-          <a href="#" class="nav-link px-2 text-body-secondary ">
-          <li class="nav-item"><i class="bi bi-linkedin fs-4 p-2"></i></li>
-          </a>
-          <a href="#" class="nav-link px-2 text-body-secondary">
-          <li class="nav-item"><i class="bi bi-instagram fs-4 p-2"></i></li>
-          </a>
           <a href="#" class="nav-link px-2 text-body-secondary">
           <li class="nav-item"><i class="bi bi-github fs-4 p-2"></i></li>
           </a>
-          <a href="#" class="nav-link px-2 text-body-secondary">
-          <li class="nav-item"><i class="bi bi-discord fs-4 p-2"></i></li>
-          </a>
         </ul>
+        <footer>
+            <p>Autores del sitio web:</p>
+            <ul>
+              <li>Atli Montoya</li>
+              <li>Diana Alvarez</li>
+              <li>Jessica Perez</li>
+              <li>Ana Conejo</li>
+            </ul>
+            <p>
+              Contacto:
+              <a href="mailto:contacto@perseflora.com">contacto@femmeforce.com</a>
+            </p>
+            <p>© 2025 . Todos los derechos reservados.</p>
+          </footer>
         <p class="text-center text-body-secondary">Creado por Equipo 3 <a href="https://tecnolochicas.mx/">Bootcamp </a></p>
-        <p class="text-center text-body-secondary">© 2025</p>
+        <p class="text-center text-body-secondary">© femmeforce 2025</p>
       </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

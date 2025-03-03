@@ -149,7 +149,7 @@
   }
   
   .contacto-caja{
-    background-color: #F2CBBD;
+    background-color: #e78fd2;
   }
   
   .btn{
@@ -160,12 +160,35 @@
     background-color: #d5ecf5;
   }
   
-  footer ul{ 
-    background-color: white;
-  }
-  
   footer i:hover{
     background-color: #378BA4;
     color: white;
   }
-  
+  footer {
+    text-align: center; /* Centra el texto */
+    background-color: #ffe4e1; /* Fondo rosa pastel */
+    padding: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre los nombres */
+    justify-content: center; /* Centrar los nombres */
+}
+
+footer ul li {
+    display: inline;
+    color: #d87393; /* Rosa pastel más oscuro para el texto */
+    font-weight: bold;
+}
+
+#contacto {
+  background-image: url('https://us.123rf.com/450wm/milkos/milkos1710/milkos171000950/87490171-ropa-deportiva-femenina-y-vista-superior-del-equipo-conjunto-de-equipo-de-fitness-y-accesorios-para.jpg?ver=6'); /* Cambia 'tu-imagen.jpg' por la ruta de tu imagen */
+  background-size: contain; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center top; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: rgb(0, 0, 0); /* Asegura que el texto sea legible si la imagen es oscura */
+  padding: 80px 0;
+}
