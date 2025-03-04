@@ -1,6 +1,20 @@
 /*Fuentes de Google Fonts: Belanosima Handjet*/
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Handjet:wght@100..900&display=swap');
 
+.Proyecto {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Centrar la sección horizontalmente */
+}
+html {
+  scroll-padding-top: 100px; /* Ajusta el valor según la altura de tu navbar */
+}
+body {
+  background-color: #F2EBF0;
+}
+
+/*///INICIO///*/
+
 /*Fuente BELANOSISIMA (para la palabra FEMME FORCE)*/
 .belanosima-regular {
   font-family: "Belanosima", sans-serif;
@@ -41,36 +55,18 @@
 
 /* Ajustar el margen superior del texto */
 #banner-inicio .col-lg-6:first-child {
-  margin-top: 200px; /* Ajusta según lo necesario */
+  margin-top: 350px; /* Ajusta según lo necesario */
 }
 /* Imagen pegada a la derecha */
 #banner-inicio .col-lg-6 img {
   width: 100%; /* Asegura que cubra toda la columna */
   object-fit: cover; /* Mantiene la proporción */
   display: block;
+  margin-top:50px;
 }
 
+/*//ABOUT US//*/
 
-.Proyecto {
-    max-width: 1200px;
-    margin: 0 auto;
-    /* Centrar la sección horizontalmente */
-  }
-  html {
-    scroll-padding-top: 100px; /* Ajusta el valor según la altura de tu navbar */
-}
-
-  body {
-    background-color: #F2EBF0;
-  }
-  
-  h1 {
-    font-family: 'Young Serif';
-  }
-  
-  h2 {
-    font-family: 'Libre Caslon Display';
-  }
   .contenedor-about {
     display: grid;  /* Usamos grid para tres columnas */
     grid-template-columns: 1fr 2fr 2fr;  /* Tres columnas: una pequeña, una mediana (para el texto) y una para la imagen */
@@ -122,7 +118,7 @@
 
 .btn-ver-mas {
   display: inline-block;  /* Hace que el enlace se comporte como un bloque en línea */
-  background-color: #4247EB;  /* Color de fondo azul */
+  background-color: #8549ca;  /* Color de fondo azul */
   color: #FFFAF4;  /* Color de la fuente blanca */
   font-family: 'Syne', sans-serif;  /* Tipografía Syne */
   font-size: 16px;  /* Tamaño de fuente igual al de "Welcome Breakers" */
@@ -135,7 +131,7 @@
 }
 
 .btn-ver-mas:hover {
-  background-color: #3639B2;  /* Cambia el color al pasar el cursor sobre el botón */
+  background-color: #620c70;  /* Cambia el color al pasar el cursor sobre el botón */
 }
 
 .columna-3{
